@@ -1,11 +1,5 @@
 @charset "UTF-8";
 
-@font-face {
-    font-family: 'idroid';
-    src: url('pacote-projeto-d010/fontes/idroid.otf');
-    font-weight: normal;
-}
-
 :root {
     --cor0: #3286D5;
     --cor1: #4579AA;
@@ -15,8 +9,8 @@
     --cor5: #2B2F33;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-destaque: 'Bebas Neue', cursive;
-    --fonte-android: 'idroid', cursive;
+    --fonte-destaque: cursive;
+    --fonte-normal: cursive;
 }
 
 * {
@@ -95,7 +89,7 @@ main {
 
 main h1 {
     color: var(--cor5);
-    font-family: var(--fonte-android);
+    font-family: var(--fonte-normal);
     font-weight: normal;
     font-size: 1.8em;
 }
